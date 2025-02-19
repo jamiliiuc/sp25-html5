@@ -1,0 +1,18 @@
+header{
+    text-align: center;
+}
+nav>ul>li{
+    display: inline;
+    margin-right: 15px;
+}
+nav a:hover{
+    background-color: gainsboro;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    background-color: bisque;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
