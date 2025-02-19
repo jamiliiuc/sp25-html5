@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <caption>How much CEOs make</caption>
+        <thead>
+            <th>SL</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill</td>
+                <td>Micro</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve</td>
+                <td>Apple</td>
+                <td>1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pagfew</td>
+                <td>Google</td>
+                <td>1300</td>
+            </tr>
+            <tr>
+                <td colspan="3">4</td>
+                <td>Zuck</td>
+                <!-- <td>FB</td>
+                <td>1000</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Hello bill gatawes</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
